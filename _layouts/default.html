@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{site.title}}</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}"/>
+	</head>
+	<body>
+		{%include header.html%}
+		<nav class="rd-nav-horizontal">
+		{%for page in site.pages%}
+		{%if page.permalink contains "404"%}
+		{%else%}
+			<span class="rd-nav-item">
+				{%if page.permalink%}
+				<a href="{{page.permalink}}">{{page.title}}</a>
+				{%endif%}
+			</span>
+			{%endif%}
+		{%endfor%}
+		</nav>
+		<main class="rd-main-content" style="background-image: url('{{page.imgbg}}')">
+			{{content}}
+		</main>
+		{%include footer.html%}
+	</body>
+</html>

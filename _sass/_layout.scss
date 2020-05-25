@@ -1,0 +1,66 @@
+.rd-header{
+	width: 100%;
+	height: 100px;
+	background-color: $header-color;
+	display: flex;
+	justify-content: flex;
+}
+
+.rd-nav-horizontal{
+	width: 100%;
+	height: 50px;
+	background-color: $nav-color;
+	display: flex;
+	justify-content: left;
+	.rd-nav-item{
+		a{
+			color: $nav-link-color;
+		}
+		margin-top: 0;
+		padding: calc(#{$spacing-unit} + 10px) $spacing-unit 0 $spacing-unit;
+		font-size: $font-size;
+		width: calc((#{$spacing-unit}*2) + #{$font-size});
+		height: auto;
+	}
+}
+
+.rd-card-container{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	.rd-card-item{
+		width: $card-width;
+		height: $card-height;
+		box-shadow: 1px 1px #000;
+		margin: calc(#{$spacing-unit} - 2px);
+		font-size: calc(#{$font-size} - 4px);
+		padding: $spacing-unit;
+	}
+}
+
+.rd-main-content{
+	width: 100%;
+	height: 100%;
+	background-color: $background-color;
+	display: flex;
+	align-items: center;
+	padding-top: calc(#{$spacing-unit} * 2);
+	.rd-center-text{
+		form{
+			display: block;
+			width: 400px;
+			height: auto;
+			input{
+				width: 400px;
+				margin-bottom: $spacing-unit;
+			}
+		}
+		a{
+			color: darken($link-color, 20%);
+		}
+		min-height: calc(#{$footer-height} * 5);
+		max-width: calc(#{$footer-height} * 5);
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

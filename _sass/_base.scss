@@ -1,0 +1,42 @@
+*{
+	font-family: Cantarell, Segoe UI, Helvetica;
+	padding: 0;
+	margin: auto;
+}
+
+/**
+* Links
+*/
+a{
+	text-decoration: none;
+	color: $link-color;
+	&:hover{
+		text-decoration: underline;
+	}
+	&:visited{
+		color: $link-visited-color;
+	}
+}
+
+/**
+* Parágrafos
+*/
+p{
+	margin: $spacing-unit;
+}
+
+/**
+* Tabelas
+*/
+table{
+	border: $border-width $border-style $border-color;
+}
+
+footer{
+	width: 100%;
+	height: $footer-height;
+	background-color: $footer-color;
+	display: flex;
+	justify-content: center;
+}
+

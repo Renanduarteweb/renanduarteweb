@@ -1,0 +1,30 @@
+//As cores do site usarão tons de azul
+$text-color: #222; //texto é mais escuro para maior contraste
+
+$background-color: #fff !default;
+$header-color: #0088aa !default;
+$footer-color: $header-color;
+$nav-color: #003380 !default;
+$link-color: #00a !default;
+$nav-link-color: #fff !default;
+$link-visited-color: darken($link-color, 20%);
+$link-hover-color: lighten($link-color, 20%);
+
+//dimensões
+$border-width: 1px !default;
+$border-style: solid;
+$border-color: darken($background-color, 10%);
+$spacing-unit: 5px !default;
+$min-width: 95px;
+$font-size: 16px !default;
+$footer-height: 100px;
+$card-width: 200px;
+$card-height: 200px;
+
+/**
+* Imports
+*/
+
+@import
+	"_base",
+	"_layout";
