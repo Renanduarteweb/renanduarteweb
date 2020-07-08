@@ -22,7 +22,7 @@ imgbg: ../assets/img/welcome.png
 		Para ganhar mais clientes, é necessário que seus serviços sejam vistos por muita gente. E a web é um dos meios (se não o melhor) para tal.
 	</p>
 	<p>
-		Veja alguns exemplos no <a href="/portfolio/">portfólio</a>
+		Veja alguns exemplos no <a href="/rdwebdev/portfolio/">portfólio</a>
 	</p>
 </div>
 <div>

@@ -9,14 +9,11 @@
 		{%include header.html%}
 		<nav class="rd-nav-horizontal">
 		{%for page in site.pages%}
-		{%if page.permalink contains "404"%}
-		{%else%}
 			<span class="rd-nav-item">
 				{%if page.permalink%}
 				<a href="{{page.permalink}}">{{page.title}}</a>
 				{%endif%}
 			</span>
-			{%endif%}
 		{%endfor%}
 		</nav>
 		<main class="rd-main-content" style="background-image: url('{{page.imgbg}}')">
