@@ -1,7 +1,13 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-Medium.otf);
+}
+
 *{
-	font-family: Cantarell, Segoe UI, Helvetica;
+	font-family: Montserrat, Helvetica, Cantarell, Segoe UI;
 	padding: 0;
 	margin: auto;
+	color: $text-color;
 }
 
 /**

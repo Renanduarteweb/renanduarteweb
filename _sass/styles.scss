@@ -1,14 +1,15 @@
 //As cores do site usarão tons de azul
-$text-color: #222; //texto é mais escuro para maior contraste
+$text-color: #fff; //texto é mais escuro para maior contraste
 
-$background-color: #fff !default;
-$header-color: #0088aa !default;
+$header-color: #010a45 !default;
+$background-color: lighten($header-color, 5%);
 $footer-color: $header-color;
-$nav-color: #003380 !default;
-$link-color: #00a !default;
+$nav-color: #012c45 !default;
+$link-color: #1a0145 !default;
 $nav-link-color: #fff !default;
 $link-visited-color: darken($link-color, 20%);
 $link-hover-color: lighten($link-color, 20%);
+$card-item-bg: #1a014588;
 
 //dimensões
 $border-width: 1px !default;
@@ -20,6 +21,20 @@ $font-size: 16px !default;
 $footer-height: 100px;
 $card-width: 200px;
 $card-height: 200px;
+$card-border-radius: 15px;
+
+//dimensões do slider
+$min-slider-width: 900px !default;
+$min-slider-height: 400px !default;
+$slider-index-size: 30px !default;
+$slider-index-border-radius: 15px;
+
+//transições
+@mixin transition($s){
+	-moz-trainsition: $s;
+	transition: $s;
+	-webkit-transition: $s;
+}
 
 /**
 * Imports

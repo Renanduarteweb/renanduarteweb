@@ -1,4 +1,10 @@
 - title: Teste em jekyll
+  screenshot: ../assets/img/site-jekyll.png
   desc: |
-    Site desenvolvido para servir de tutorial da plataforma Jekyll
+    Site desenvolvido para servir de tutorial de Jekyll
   link: http://renanleviathan.gitlab.io/meu-site-jekyll
+
+- title: Projeto 2
+  desc: |
+    Exemplo de projeto
+  link: http://xpto.com.br

@@ -1,0 +1,9 @@
+- name: Cliente 1
+  desc: |
+    Lorem Ipsum dolor sit amet
+  link: http://xpto.com.br
+
+- name: Cliente 2
+  desc: |
+    Lorem ipsum dolor sit amet
+  link: http://foo.bar.com.br

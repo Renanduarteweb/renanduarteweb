@@ -4,16 +4,19 @@
 		<title>{{site.title}}</title>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}"/>
+		<script type="text/javascript" src="{{ 'assets/js/jquery-3.5.1.min.js' | relative_url}}"></script>
+		<script type="text/javascript" src="{{ 'assets/js/coin-slider.min.js' | relative_url}}"></script>
+		<link rel="stylesheet" href="{{ '/assets/coin-slider-styles.css' | relative_url }}" type="text/css" />
 	</head>
 	<body>
 		{%include header.html%}
 		<nav class="rd-nav-horizontal">
 		{%for page in site.pages%}
+		{%if page.permalink%}
 			<span class="rd-nav-item">
-				{%if page.permalink%}
 				<a href="{{page.permalink}}">{{page.title}}</a>
-				{%endif%}
 			</span>
+		{%endif%}
 		{%endfor%}
 		</nav>
 		<main class="rd-main-content" style="background-image: url('{{page.imgbg}}')">
