@@ -2,7 +2,6 @@
 layout: page
 title: Portfólio
 permalink: /portfolio/
-imgbg: ../assets/img/mesa-de-trabalho.jpg
 ---
 <h1>{{page.title}}</h1>
 {%assign count = 0 %}

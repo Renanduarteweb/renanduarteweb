@@ -4,7 +4,6 @@
 
 layout: default
 title: Início
-imgbg: ../assets/img/led_panel.png
 ---
 <div id='coin-slider'>
 	<a class="slider-item" href="#" target="_blank">

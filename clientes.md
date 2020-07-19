@@ -2,7 +2,6 @@
 layout: page
 title: Clientes
 permalink: /clientes/
-imgbg: ../assets/img/thumbs-up.jpg
 ---
 <h1>{{page.title}}</h1>
 {%assign count = 0 %}
