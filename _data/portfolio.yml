@@ -4,7 +4,8 @@
     Site desenvolvido para servir de tutorial de Jekyll
   link: http://renanleviathan.gitlab.io/meu-site-jekyll
 
-- title: Projeto 2
+- title: Adaptação de layout para loja virtual
+  screenshot: ../assets/img/unica_layout.png
   desc: |
-    Exemplo de projeto
-  link: http://xpto.com.br
+    Adaptação de layout para a loja virtual da Única Mídias e Informática
+  link: https://www.unicamidiaseinformatica.com.br
