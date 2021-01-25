@@ -1,0 +1,14 @@
+- img: ../assets/img/executives.jpg
+  link: '#'
+  desc: |
+    Precisa de um site? Se sim, está no lugar certo!
+- img: ../assets/img/pensativo.jpg
+  link: /portfolio/
+  desc: |
+    Quem não está na internet, não é visto. 
+    Para ganhar mais clientes, é necessário que seus serviços sejam vistos por muita gente. E a web é um dos meios (se não o melhor) para tal.
+- img: ../assets/img/governanca-corporativa.png
+  link: '/orcamento.html'
+  desc: |
+    Interessante, mas.... como posso criar um site para meu negócio?
+    Não se preocupe, eu faço para você. Solicite um orçamento.

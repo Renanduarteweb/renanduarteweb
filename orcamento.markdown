@@ -2,9 +2,5 @@
 layout: page
 title: Orçamento
 ---
-<form action="#" method="post">
-	<input type="text" name="nome" placeholder="Seu nome"/>
-	<input type="email" name="email" placeholder="Seu Email"/>
-	<textarea></textarea>
-	<input type="submit" value="Solicitar"/>
-</form>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwhGOxXvNMddF1nCeEzGVzNYHBkDcXCwzWNsAruUGtXs6n2w/viewform?embedded=true" width="640" height="673" frameborder="0" marginheight="0" marginwidth="0">Caricamento…</iframe>

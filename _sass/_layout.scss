@@ -35,7 +35,6 @@
 		height: 50px;
 	}
 }
-
 .rd-card-container{
 	display: flex;
 	justify-content: center;
@@ -61,12 +60,15 @@
 			position: absolute;
 			width: $card-width;
 			height: $card-height;
+			h3,p{
+				color: #fff;
+			}
 			@include transition(0.5s);
 			&:hover{
 				@include transition(0.5s);
 				text-decoration: none;
 				background: url('img/bg_pattern_4.png');
-				opacity: 100;
+				opacity: 1;
 			}
 		}
 	}
@@ -80,18 +82,6 @@
 	flex-direction: column;
 	padding-top: calc(#{$spacing-unit} * 2);
 	.rd-center-text{
-		form{
-			display: block;
-			width: 400px;
-			height: auto;
-			input{
-				width: 400px;
-				margin-bottom: $spacing-unit;
-			}
-		}
-		a{
-			color: darken($link-color, 20%);
-		}
 		min-height: calc(#{$footer-height} * 5);
 		max-width: calc(#{$footer-height} * 5);
 		margin-right: auto;
