@@ -15,3 +15,7 @@ permalink: /sobre/
 	<h4>Whatsapp</h4>
 	{{site.whatsapp}}
 </p>
+<p>
+	<h3>Quer saber a base de qualquer aplicativo Android?</h3>
+	<a href="https://go.hotmart.com/N43501410G?dp=1">Descubra aqui</a>
+</p>
