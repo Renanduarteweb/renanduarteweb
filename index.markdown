@@ -5,6 +5,7 @@
 layout: default
 title: Início
 ---
+<!--
 <div id='coin-slider'>
 	{% for s in site.data.slide_data%}
 	<a class="slider-item" href="{{s.link}}" target="_blank">
@@ -15,10 +16,16 @@ title: Início
 	</a>
 	{% endfor %}
 </div>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$('#coin-slider').coinslider(
-			{height: 400, navigation: true, delay: 5000, opacity: 0.7}
-		);
-	});
-</script>
+-->
+<div class="rd-slide">
+	{%for s in site.data.slide_data %}
+	<div>
+		<a href="{{s.link}}">
+			<img src="{{s.img}}"/>
+			<span>
+				{{s.desc}}
+			</span>
+		</a>
+	</div>
+	{% endfor %}
+</div>

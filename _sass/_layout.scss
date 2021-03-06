@@ -13,6 +13,9 @@
 		color: #ffffff;
 	}
 	justify-content: flex;
+	#vert-menu-btn{
+		display: none;
+	}
 }
 
 .rd-nav-horizontal{
@@ -35,8 +38,17 @@
 		height: 50px;
 	}
 }
+
+/**Menu vertical só para mobile**/
+.rd-nav-vertical{
+	height: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
 .rd-card-container{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	width: 100%;
 	.rd-card-item{
@@ -45,9 +57,10 @@
 		margin: calc(#{$spacing-unit} - 2px);
 		font-size: calc(#{$font-size} - 4px);
 		padding: 0;
+		flex: 1 1 $card-width;
 		display: flex;
 		.rd-card-item-img{
-			position: relative;
+			position: absolute;
 			width: $card-width;
 			height: $card-height;
 		}
@@ -86,5 +99,64 @@
 		max-width: calc(#{$footer-height} * 5);
 		margin-right: auto;
 		margin-left: auto;
+	}
+}
+/**slide responsivo**/
+.rd-slide{
+	width: 75%;
+	img{
+		height: 400px;
+	}
+	div{
+		width: 100%;
+		height: auto;
+		background: $header-color;
+	}
+	.slick-prev:before, .slick-next:before{
+		color: $header-color;
+	}
+}
+
+/**Layout Mobile**/
+@media only screen and (max-width: 767px){
+	.rd-main-content{
+		height: auto;
+		.rd-center-text{
+			padding: 0;
+		}
+	}
+	.rd-nav-horizontal{
+		display: none;
+	}
+	.rd-nav-vertical{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.rd-nav-item{
+			flex: 1;
+			display: flex;
+			justify-content: center;
+			background: #d7d7d7;
+			a{
+				flex: 1;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+			}
+			width: 100%;
+		}
+	}
+	
+	.rd-header{
+		justify-content: center;
+		flex-wrap: no-wrap;
+		#vert-menu-btn{
+			display: block;
+			img{
+				width: 25px !important;
+				height: 25px;
+				margin: 0 5px;
+			}
+		}
 	}
 }
