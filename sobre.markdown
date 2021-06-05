@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sobre
+title: Sobre - Renan Duarte
 permalink: /sobre/
 ---
 <p>
