@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sobre - alteração
+title: Sobre - alteração - enviar para o mestre
 permalink: /sobre/
 ---
 <p>
