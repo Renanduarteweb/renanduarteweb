@@ -22,9 +22,9 @@ title: Início
 	<div>
 		<a href="{{s.link}}">
 			<img src="{{s.img}}"/>
-			<span>
+			<div>
 				{{s.desc}}
-			</span>
+			</div>
 		</a>
 	</div>
 	{% endfor %}

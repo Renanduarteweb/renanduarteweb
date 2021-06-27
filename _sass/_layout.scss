@@ -103,14 +103,29 @@
 }
 /**slide responsivo**/
 .rd-slide{
-	width: 75%;
-	img{
-		height: 400px;
-	}
+	position: relative;
+	z-index: 1;
 	div{
-		width: 100%;
+		width: auto;
 		height: auto;
 		background: $header-color;
+		position: absolute;
+		z-index: 2;
+		display: flex;
+		flex-direction: column;
+		img{
+			position: absolute;
+			z-index: 3;
+		}
+		div{
+			width: auto;
+			height: 100%;
+			position: absolute;
+			justify-content: center;
+			text-align: justify;
+			padding: 1px;
+			z-index: 4;
+		}
 	}
 	.slick-prev:before, .slick-next:before{
 		color: $header-color;
