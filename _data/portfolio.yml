@@ -26,3 +26,9 @@
   desc: |
     Criação do site de sublimação da Única Mídias e Informática
   link: http://www.unicasub.store
+  
+- title: Site de rifa
+  scrceenshot: ../assets/img/rifa_frontend_angular.png
+  desc: |
+    Projeto front-end de um site de rifas desenvolvido no framework Angular
+  link: http://renanduarteweb.dev.br/rifa/
