@@ -5,7 +5,7 @@ permalink: /sobre/
 ---
 <p>
 	<h1>Renan Duarte</h1>
-	Bacharel em Ciência da Computação pela Universidade Federal do Pará (UFPa). Desenvolvedor de Web Apps utilizando Jekyll, Django e AngularJS e Apps móveis na plataforma Android.
+	Bacharel em Ciência da Computação pela Universidade Federal do Pará (UFPa). Desenvolvedor de Web Apps utilizando Jekyll, Django e Angular e Apps móveis na plataforma Android.
 </p>
 
 <p>
